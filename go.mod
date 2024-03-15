@@ -1,4 +1,4 @@
-module github.com/gcaponi/gopportunities.git
+module github.com/gcaponi/gopportunities
 
 go 1.22.0
 
