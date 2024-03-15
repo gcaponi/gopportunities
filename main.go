@@ -6,6 +6,6 @@ import (
 
 func main() {
 	// Inizializzare Router
-	router.Initialize
+	router.Initialize()
 
 }
