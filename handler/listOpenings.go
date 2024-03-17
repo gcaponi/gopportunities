@@ -1,13 +1,16 @@
 package handler
 
 import (
-	"net/http"
+	//"net/http"
 
+	"github.com/gcaponi/gopportunities/schemas"
 	"github.com/gin-gonic/gin"
 )
 
 func ListOpeningsHandler(ctx *gin.Context){
-	ctx.JSON(http.StatusOK, gin.H{
-		"message":"List Openings",
-	})
+	openings := []schemas.Opening{}
+
+	//if err := db.Find(&openings).Error; err != nil{
+		//sendError()
+	}
 }
