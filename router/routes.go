@@ -10,6 +10,7 @@ import (
 )
 
 func initializeRoutes(router *gin.Engine){
+	
 	// Initialize Handler
 	basePath := "/api/v1"
 	handler.InitializeHandler()
