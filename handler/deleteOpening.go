@@ -15,8 +15,8 @@ import (
 // @Tags Openings
 // @Accept json
 // @Produce json
-// @Param request body CreateOpeningRequest true "Request body"
-// @Success 200 {object} CreateOpeningResponse
+// @Param request body DeleteOpeningRequest true "Request body"
+// @Success 200 {object} DeleteOpeningResponse
 // @Failure 400 {object} ErrorResponse
 // @Failure 500 {object} ErrorResponse
 // @Router /opening [post]
